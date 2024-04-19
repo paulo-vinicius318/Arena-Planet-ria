@@ -1,2 +1,2 @@
-# Arena-Planet-ria
+# Arena-Planetária
 Trabalho de Cadastro de Planetas 
