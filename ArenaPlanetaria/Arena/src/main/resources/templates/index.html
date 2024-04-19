@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset='utf-8'>
+        <title>Arena Planetaria</title>
+        <meta name='viewport' content='width=device-width, initial-scale=1'>
+    </head>
+    <body>
+
+        <h1>Bem-vindo a lista das Arenas Planetárias</h1>
+        
+        <h3>Planetas selecionados:</h3>
+        
+        <tr th:each=" planeta : ${planetas}">
+			<span th:text="${planeta.name}"></span>
+			<span th:text="${planeta.localidade}"></span>
+			<span th:text="${planeta.governante}"></span>
+			<span th:text="${planeta.dataDestruicao}"></span>
+			<p></p>
+		</tr>
+        
+    </body>
+</html>
